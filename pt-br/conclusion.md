@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Conclusion
+title: Congratulations!
 number: 8
-locale: fr
+locale: en
 ---
-Vous avez terminé toutes les leçons !
 
-Croyez-le ou non, nous ne faisons _que commencer_ à explorer ce qui peut être accompli avec le Markdown. Il existe de nombreuses implémentations "étendues" de Markdown qui prennent en charge les tableaux, les listes de définitions, les notes de bas de page et plus encore. Parce que ils ne sont pas standard, ils ne sont pas essentiels à l'apprentissage des bases, comme nous l'avons présenté ici.
+You've completed all the lessons!
 
-Si vous souhaitez en savoir plus sur ces implémentations du Markdown, vous êtes les bienvenus pour explorer un certain nombre d'autres applications et tutoriels Markdown. En voici quelques-unes :
+Believe it or not, we've only _just begun_ exploring what can be accomplished
+with Markdown. There are many "extended" implementations of Markdown that support
+formats like tables, definition lists, footnotes, and more. Because
+they're non-standard, they're not essential to learning the basics, as we've
+introduced here.
+
+If you'd like to know more about these Markdown implementations, you're welcome
+to explore any number of other Markdown apps and tutorials. Here are just a few:
 
 {% for link in site.data.resources.links %}
 * <{{ link }}>
